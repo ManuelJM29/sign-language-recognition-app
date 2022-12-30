@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/traductor_lsv_interfaz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="15" />
+
+
+            <Button
+                android:id="@+id/btn_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/Letra"
+                android:text="@string/str_btn_ver"
+                android:textColor="@color/Fondo" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="4dp"
+                android:layout_height="40dp"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:text="@string/txtvw"
+                android:textColor="@color/Letra"
+                android:background="@color/Fondo"
+                android:textSize="25sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20" />
+
+            <Button
+                android:id="@+id/btn_agg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:background="@color/Amarillo"
+                android:text="@string/str_btn_agg"
+                android:textColor="@color/Letra" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25" />
+
+            <Button
+                android:id="@+id/btn_borrar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:background="@color/Azul"
+                android:text="@string/str_btn_borrar"
+                android:textColor="@color/Fondo" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25" />
+
+            <Button
+                android:id="@+id/btn_limpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:background="@color/Rojo"
+                android:text="@string/str_btn_limpiar"
+                android:textColor="@color/Letra" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

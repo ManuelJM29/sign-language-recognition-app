@@ -1,0 +1,15 @@
+<resources>
+    <string name="nombre_app">Traductor LSV</string>
+
+    <string name="str_btn_agg">Agregar</string>
+    <string name="str_btn_limpiar">Limpiar</string>
+    <string name="str_btn_borrar">Borrar</string>
+    <string name="str_btn_ver">Iniciar / Verificar</string>
+    <string name="str_btn_off">ON-OFF</string>
+    <string name="txtvw"> </string>
+    <color name="Amarillo">#D6C31D</color>
+    <color name="Azul">#043070</color>
+    <color name="Rojo">#BC1F1F</color>
+    <color name="Fondo">#FFFFFF</color>
+    <color name="Letra">#000000</color>
+</resources>
